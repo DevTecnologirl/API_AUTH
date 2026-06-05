@@ -6,7 +6,6 @@ import { OidcModule } from './oidc/oidc.module';
 import { OauthModule } from './oauth/oauth.module';
 import { JwtModule } from './jwt/jwt.module';
 import { ApiKeyModule } from './api-key/api-key.module';
-import { BasicAuthModule } from './basic-auth/basic-auth.module';
 
 @Module({
   imports: [BasicAuthModule, ApiKeyModule, JwtModule, OauthModule, OidcModule],
